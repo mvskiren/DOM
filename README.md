@@ -19,3 +19,13 @@ Disadavntages:
 # querySelectorAll - Returns NodeList (True Array )
 Advantages: We can loop through forEach method unlike all above methods which returns not a true array.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Nodes
+<html>
+<head>
+  <title>hello there</title>
+  </head>
+  </html>
+  Total Nodes: (html,head, returns new line, space, title, return new line)
+  
+  
