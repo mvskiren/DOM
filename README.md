@@ -42,4 +42,10 @@ Advantages: We can loop through forEach method unlike all above methods which re
  ### Children Vs ChildNodes  
  Childrens returns HTMLCOllection  (includes only type of element)
  ChildNodes returns NodeList (including whitespaces ,returns and text nodes ) 
-![Root Node](https://github.com/[mvskiren]/[DOM]/blob/[main]/Screenshot 2021-10-07 at 12.08.45 AM.png.jpg?raw=true)
+ ### Create element and append to its child
+ let para= document.createElement('p')
+ body.appendChild(para);
+ ### InnerHtml vs TextContent 
+ InnerHtml exposed your site to cross site scripting(XSS) and beacuse of inline html element
+ 
+ 
