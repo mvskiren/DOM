@@ -35,4 +35,10 @@ Advantages: We can loop through forEach method unlike all above methods which re
  
  Window
  Document
-HTMLElement (Document.documentElement)
+ HTMLElement (Document.documentElement)
+ 
+ ### FirstNode , LastNode ,PreviousSibiling, nextSibiling, ParentNode, ParentElement
+ 
+ ### Children Vs ChildNodes  
+ Childrens returns HTMLCOllection  (includes only type of element)
+ ChildNodes returns NodeList (including whitespaces ,returns and text nodes ) 
