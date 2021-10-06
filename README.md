@@ -6,11 +6,11 @@ Disadvantages:
 * Id should be unique
 * You can access only one element
 
-# getElementByClassName - Returns HTML Collections (Not a true array)
+## getElementByClassName - Returns HTML Collections (Not a true array)
 Disadavntages:
 * Returns Collections not an array (ForEach can't be used to iterate since it was not an array ,use normal For loop to iterate)
 
-# getElementByTagName -  Returns HTML Collections (Not a true array)
+### getElementByTagName -  Returns HTML Collections (Not a true array)
 Disadavntages:
 * Performance ineffcient
 
