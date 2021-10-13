@@ -65,9 +65,11 @@ Advantages: We can loop through forEach method unlike all above methods which re
 
 Well there are a lot of intuitive rules. If your attribute value has spaces in it, then things will break. This will work:
 
-<button class="beautiful funky">
+button class="beautiful funky"
 
 But, as I'm sure you already know, this will break:
 
-<button class=beautiful funky>
+button class=beautiful funky
  
+button onclick="test()"
+ ---------------------------------
