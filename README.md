@@ -49,3 +49,25 @@ Advantages: We can loop through forEach method unlike all above methods which re
  InnerHtml exposed your site to cross site scripting(XSS) and beacuse of inline html element
  
  
+ 
+ 
+ 
+ 
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Part -2
+ # Events 
+  * Inline events
+  * Inline properties
+  * Event Listners
+### Note: Important: an attribute value can be used without quotes under certain conditions.
+
+### What conditions?
+
+Well there are a lot of intuitive rules. If your attribute value has spaces in it, then things will break. This will work:
+
+<button class="beautiful funky">
+
+But, as I'm sure you already know, this will break:
+
+<button class=beautiful funky>
+ 
